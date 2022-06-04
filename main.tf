@@ -15,7 +15,7 @@ provider "azurerm" {
 
 data "azurerm_resource_group" "example" {
    name     = "session"
-   location = "East US 2"
+   location = "ue2"
 }
 
 # resource "azurerm_app_service_plan" "example" {
