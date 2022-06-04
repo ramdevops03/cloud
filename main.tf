@@ -8,6 +8,7 @@ terraform {
 }
 
 provider "azurerm" {
+  skip_provider_registration = "true"
   #version = "=2.20.0"
   features {}
 }
