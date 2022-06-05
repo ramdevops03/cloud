@@ -13,9 +13,9 @@ provider "azurerm" {
   features {}
 }
 
-data "azurerm_resource_group" "example" {
-   name     = "session"
-   #location = "eastus2"
+resource "azurerm_resource_group" "example" {
+   name     = "session-rg"
+   location = "eastus2"
 }
 
 # resource "azurerm_app_service_plan" "example" {
