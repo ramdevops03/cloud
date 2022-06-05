@@ -14,8 +14,8 @@ provider "azurerm" {
 }
 
 data "azurerm_resource_group" "example" {
-   name     = "session"
-   location = "ue2"
+   name     = "session-weu"
+   location = "West Europe"
 }
 
 # resource "azurerm_app_service_plan" "example" {
